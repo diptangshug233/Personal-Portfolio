@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -8,133 +9,177 @@
 </head>
 
 <body>
-<nav id="navbar" class="nav">
-  <ul>
-    <li>
-      <a href="#about">
-        <span class="code">&lt;</span>
-        About
-        <span class="code">&#47;&gt;</span>
+  <nav id="navbar" class="nav">
+    <ul>
+      <li>
+        <a href="#about">
+          <span class="code">&lt;</span>
+          About
+          <span class="code">&#47;&gt;</span>
+        </a>
+      </li>
+      <li>
+        <a href="#projects">
+          <span class="code">&lt;</span>
+          Projects
+          <span class="code">&#47;&gt;</span>
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          <span class="code">&lt;</span>
+          Contact
+          <span class="code">&#47;&gt;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="welcome-section">
+    <div>
+      <h1>Hello<span>,</span></h1>
+      <p id="subheading">I'm <span>Diptangshu</span></p>
+    </div>
+    <div>
+      <img class="welcome-img" id="desktop-only" src="img/code-1.svg" alt="code snippet">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>My Story:</h2>
+    <div id="about-container">
+      <div id="my-story">
+        <p>Hola! I'm an Electrical and Telecommunications Engineering undergraduate with experience in computer
+          programming. I am interested in all aspects of technology and especially in Web Development, Artificial
+          Intelligence and Internet of Things. I love creating beautiful things. I really enjoy learning new things and
+          I'm always open to new ideas and projects.</p>
+      </div>
+      <div id="interests-list">
+        <h3>Interests</h3>
+        <ul>
+          <li>Programming</li>
+          <li>App & Web Development</li>
+          <li>Machine Learning</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Work:</h2>
+    <p>Here's a list of projects I built so far...</p>
+
+    <div class="projects-grid">
+      <div class="card">
+        <div class="project-img">
+          <img src="img/p1.jpg" alt="tribute page">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://diptangshug233.github.io/Tribute-Page/" target="_blank">
+              <span class="code">&lt;</span>
+              Tribute Page
+              <span class="code">&#47;&gt;</span></a>
+          </h3>
+          <p>A tribute page dedicated to Steve Jobs, built with HTML and CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="img/p2.jpg" alt="survey form">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://diptangshug233.github.io/Survey-Form/" target="_blank">
+              <span class="code">&lt;</span>
+              Survey Form
+              <span class="code">&#47;&gt;</span></a>
+          </h3>
+          <p>A survey form for developers, built with HTML and CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="img/p4.jpg" alt="product landing page">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://diptangshug233.github.io/Product-Landing/" target="_blank"><span class="code">&lt;</span>
+              Product Landing Page
+              <span class="code">&#47;&gt;</span></a>
+          </h3>
+          <p>A product landing page for a fitness company, built with HTML and CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="img/p3.jpg" alt="technical documentation page">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://diptangshug233.github.io/Technical-Documentation/" target="_blank"><span class="code">&lt;</span>
+              Technical Documentation Page
+              <span class="code">&#47;&gt;</span>
+              </a>
+          </h3>
+          <p>A technical documentation page made for JavaScript, built with HTML and CSS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="img/p5.jpg" alt="task tracker application">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://diptangshug233.github.io/task-tracker/" target="_blank"><span class="code">&lt;</span>
+              Task Tracker Application
+              <span class="code">&#47;&gt;</span>
+              </a>
+          </h3>
+          <p>A simple 'Task Tracking' web app created using React.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="project-img">
+          <img src="img/p6.jpg" alt="spotify insight generator">
+        </div>
+        <div class="desc">
+          <h3 class="project-tile">
+            <a href="https://myspotifyinsight.herokuapp.com/" target="_blank"><span class="code">&lt;</span>
+              Spotify Insights Generator
+              <span class="code">&#47;&gt;</span>
+              </a>
+          </h3>
+          <p>A guided project to learn advanced React concepts.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Let's work together</h2>
+    <p>Find me on</p>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/diptangshu-ghosh/" target="_blank" class="contact-details">
+        <img src="img/linkedin.svg" alt="linkedin logo" class="contact-icon">LinkedIn
       </a>
-    </li>
-    <li>
-      <a href="#projects">
-        <span class="code">&lt;</span>
-        Projects
-        <span class="code">&#47;&gt;</span>
-      </a>
-    </li>
-    <li>
-      <a href="#contact">
-        <span class="code">&lt;</span>
-        Contact
-        <span class="code">&#47;&gt;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
-
-<section id="welcome-section">
-  <div>
-    <h1>Hello<span>,</span></h1>
-    <p id="subheading">I'm <span>Diptangshu</span></p>
-  </div>
-  <div>
-    <img class="welcome-img" id="desktop-only" src="img/code-1.svg" alt="code snippet">
-  </div>
-</section>
-
-<section id="about">
-  <h2>My Story:</h2>
-  <div id="about-container">
-    <div id="my-story">
-      <p>Hola! I'm an Electrical and Telecommunications Engineering undergraduate with experience in computer programming. I am interested in all aspects of technology and especially in Web Development, Artificial Intelligence and Internet of Things. I love creating beautiful things. I really enjoy learning new things and I'm always open to new ideas and projects.</p>
-    </div>
-    <div id="interests-list">
-      <h3>Interests</h3>
-      <ul>
-        <li>Programming</li>
-        <li>App & Web Development</li>
-        <li>Machine Learning</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="projects">
-  <h2>My Work:</h2>
-  <p>Here's a list of projects I built so far...</p>
-
-  <div class="projects-grid">
-    <div class="card">
-      <div class="project-img">
-        <img src="img/p1.jpg" alt="tribute page">
-      </div>
-      <div class="desc">
-        <h3 class="project-tile">
-          <a href="https://diptangshug233.github.io/Tribute-Page/" target="_blank">Tribute Page</a>
-        </h3>
-        <p>A tribute page dedicated to Steve Jobs, built with HTML and CSS</p>
-      </div>
+      <a href="https://github.com/diptangshug233" target="_blank" class="contact-details">
+        <img src="img/github.svg" alt="github logo" class="contact-icon">GitHub
     </div>
 
-    <div class="card">
-      <div class="project-img">
-        <img src="img/p2.jpg" alt="survey form">
-      </div>
-      <div class="desc">
-        <h3 class="project-tile">
-          <a href="https://diptangshug233.github.io/Survey-Form/" target="_blank">Survey Form</a>
-        </h3>
-        <p>A survey form for developers, built with HTML and CSS</p>
-      </div>
-    </div>
 
-    <div class="card">
-      <div class="project-img">
-        <img src="img/p4.jpg" alt="product landing page">
-      </div>
-      <div class="desc">
-        <h3 class="project-tile">
-          <a href="https://diptangshug233.github.io/Product-Landing/" target="_blank">Product Landing Page</a>
-        </h3>
-        <p>A product landing page for a fitness company, built with HTML and CSS</p>
-      </div>
-    </div>
+    <footer>
+      <p>Created by <span class="col">Diptangshu</span></p>
+    </footer>
 
-    <div class="card">
-      <div class="project-img">
-        <img src="img/p3.jpg" alt="technical documentation page">
-      </div>
-      <div class="desc">
-        <h3 class="project-tile">
-          <a href="https://diptangshug233.github.io/Technical-Documentation/" target="_blank">Technical Documentation Page</a>
-        </h3>
-        <p>A technical documentation page made for JavaScript, built with HTML and CSS</p>
-      </div>
-    </div>
-
-  </div>
-
-</section>
-
-<section id="contact">
-  <h2>Let's work together</h2>
-  <p>Find me on</p>
-  <div class="contact-links">
-    <a href="https://www.linkedin.com/in/diptangshu-ghosh/" target="_blank" class="contact-details">
-      <img src="img/linkedin.svg" alt="linkedin logo" class="contact-icon">LinkedIn
-    </a>
-    <a href="https://github.com/diptangshug233" target="_blank" class="contact-details">
-      <img src="img/github.svg" alt="github logo" class="contact-icon">GitHub
-  </div>
-
-
-<footer>
-  <p>Created by <span class="col">Diptangshu</span></p>
-</footer>
-
-</section>
+  </section>
 
 </body>
 
